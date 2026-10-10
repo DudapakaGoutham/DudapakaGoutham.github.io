@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Goutham Dudapaka, Computer Science graduate interested in Data Analytics, AI and Machine Learning.">
   <title>Goutham Dudapaka | Portfolio</title>
-  <meta name="description" content="Portfolio of Goutham Dudapaka, a Computer Science graduate interested in AI, Machine Learning and Data Analytics.">
 
   <style>
     * {
@@ -18,168 +18,159 @@
     body {
       font-family: Arial, sans-serif;
       background: #0b1120;
-      color: #f5f5f5;
+      color: #f1f5f9;
       line-height: 1.7;
     }
 
+    header {
+      background: #111c30;
+      padding: 55px 8% 45px;
+      text-align: center;
+      border-bottom: 1px solid #334155;
+    }
+
+    header h1 {
+      font-size: clamp(32px, 6vw, 48px);
+      margin-bottom: 10px;
+    }
+
+    header h1 span,
+    h2 span {
+      color: #84cc16;
+    }
+
+    header p {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
     nav {
+      background: #0b1120;
+      padding: 16px 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
       position: sticky;
       top: 0;
-      background: #0b1120;
-      padding: 18px 8%;
-      display: flex;
-      justify-content: flex-end;
-      gap: 22px;
-      border-bottom: 1px solid #263247;
       z-index: 10;
+      border-bottom: 1px solid #263449;
     }
 
     nav a {
-      color: #e5e7eb;
+      color: #e2e8f0;
       text-decoration: none;
-      font-size: 14px;
     }
 
-    nav a:hover {
-      color: #a3e635;
+    nav a:hover,
+    a:hover {
+      color: #84cc16;
     }
 
     section {
-      padding: 65px 10%;
-      scroll-margin-top: 65px;
-    }
-
-    .hero {
-      min-height: 65vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .tagline {
-      color: #a3e635;
-      font-weight: bold;
-      letter-spacing: 2px;
-      font-size: 14px;
-      margin-bottom: 12px;
-    }
-
-    h1 {
-      font-size: clamp(38px, 6vw, 60px);
-      line-height: 1.15;
-      margin-bottom: 20px;
-    }
-
-    h1 span {
-      color: #a3e635;
-    }
-
-    .intro {
-      max-width: 750px;
-      color: #cbd5e1;
-      margin-bottom: 25px;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-right: 8px;
-      margin-bottom: 8px;
-      border-radius: 8px;
-      background: #a3e635;
-      color: #111827;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .button.secondary {
-      background: transparent;
-      border: 1px solid #a3e635;
-      color: #a3e635;
+      padding: 45px 8%;
+      max-width: 1100px;
+      margin: auto;
     }
 
     h2 {
       font-size: 30px;
-      margin-bottom: 22px;
-      color: #f8fafc;
+      margin-bottom: 20px;
     }
 
     .content {
       color: #cbd5e1;
-      max-width: 850px;
+      font-size: 17px;
     }
 
     .skills {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 20px;
+      gap: 12px;
     }
 
     .skills span {
-      background: #1e293b;
+      background: #17263d;
+      color: #a3e635;
       border: 1px solid #334155;
-      padding: 8px 13px;
       border-radius: 8px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 18px;
+      padding: 9px 15px;
     }
 
     .card {
-      background: #111c30;
+      background: #13233b;
       border: 1px solid #334155;
-      padding: 22px;
-      border-radius: 14px;
-      margin-bottom: 16px;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 20px;
     }
 
     .card h3 {
       color: #a3e635;
+      font-size: 22px;
       margin-bottom: 8px;
     }
 
-    .card p {
+    .card p,
+    .card li {
       color: #cbd5e1;
-      margin-top: 5px;
     }
 
+    .card ul {
+      padding-left: 22px;
+      margin-top: 8px;
+    }
+
+    .card a,
     .contact a {
       color: #a3e635;
       overflow-wrap: anywhere;
     }
 
+    .contact p {
+      margin: 12px 0;
+      overflow-wrap: anywhere;
+    }
+
     footer {
       text-align: center;
-      padding: 25px;
-      border-top: 1px solid #263247;
+      padding: 25px 12px;
       color: #94a3b8;
-      font-size: 14px;
+      border-top: 1px solid #334155;
     }
 
     @media (max-width: 600px) {
-      nav {
-        justify-content: center;
-        gap: 14px;
-        padding: 14px 5%;
-        flex-wrap: wrap;
+      header {
+        padding: 40px 6%;
       }
 
       section {
-        padding: 45px 7%;
+        padding: 35px 6%;
       }
 
-      .hero {
-        min-height: 60vh;
+      nav {
+        gap: 14px;
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .card {
+        padding: 20px;
       }
     }
   </style>
 </head>
 
 <body>
+
+  <header>
+    <h1>Goutham <span>Dudapaka</span></h1>
+    <p>Computer Science Graduate | Data Analytics | AI &amp; ML</p>
+    <p>Interested in turning data into meaningful insights.</p>
+  </header>
 
   <nav>
     <a href="#about">About</a>
@@ -189,91 +180,80 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section class="hero" id="home">
-    <p class="tagline">CSE GRADUATE · AI & MACHINE LEARNING </p>
-
-    <h1>Hi, I'm Goutham<br><span>Dudapaka.</span></h1>
-
-    <p class="intro">
-      A Computer Science graduate interested in data analytics,
-      artificial intelligence, machine learning and solving real-world
-      problems with technology.
-    </p>
-
-    <div>
-      <a class="button" href="#projects">Explore My Work ↓</a>
-      <a class="button secondary" href="#contact">Contact Me</a>
+  <section id="about">
+    <h2>About <span>Me</span></h2>
+    <div class="content">
+      <p>
+        Hello! I'm Goutham Dudapaka, a Computer Science graduate
+        interested in Data Analytics, Artificial Intelligence and
+        Machine Learning.
+      </p>
+      <p style="margin-top: 15px;">
+        I'm developing my skills in Python, SQL, Excel and data
+        visualization. I'm looking for entry-level opportunities,
+        internships and projects where I can learn, contribute
+        and grow professionally.
+      </p>
     </div>
   </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-
-    <p class="content">
-      I'm a Computer Science graduate specializing in Artificial
-      Intelligence and Machine Learning. I'm passionate about data
-      analytics, Python, SQL and transforming data into meaningful
-      insights. I'm continuously improving my technical skills through
-      practical projects and looking for opportunities to contribute,
-      learn and grow in the technology industry.
-    </p>
-  </section>
-
   <section id="skills">
-    <h2>Technical Skills</h2>
-
+    <h2>Technical <span>Skills</span></h2>
     <div class="skills">
       <span>Python</span>
       <span>SQL</span>
       <span>Microsoft Excel</span>
       <span>Power BI</span>
       <span>Data Analysis</span>
+      <span>Data Visualization</span>
       <span>Machine Learning</span>
       <span>Artificial Intelligence</span>
       <span>Problem Solving</span>
     </div>
-
     <p class="content" style="margin-top: 18px;">
-      Keep only the skills you can confidently demonstrate in an interview.
+      I am continuing to improve these skills through practice
+      and hands-on projects.
     </p>
   </section>
 
   <section id="projects">
-    <h2>Featured Projects</h2>
+    <h2>Featured <span>Projects</span></h2>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Data Analytics Project</h3>
-        <p>
-          Add your dataset, data cleaning, SQL or Python analysis,
-          visualizations and business insights here.
-        </p>
-      </div>
+    <div class="card">
+      <h3>Sales Data Analysis</h3>
+      <p>
+        Analyzed sales datasets to explore revenue trends,
+        product categories and regional performance.
+      </p>
 
-      <div class="card">
-        <h3>AI / Machine Learning</h3>
-        <p>
-          Add your machine learning project, including its problem,
-          dataset, model, evaluation and results.
-        </p>
-      </div>
+      <p style="margin-top: 12px;">
+        <strong>Tools:</strong> Python, SQL, CSV and Data Visualization
+      </p>
 
-      <div class="card">
-        <h3>Dashboard Project</h3>
-        <p>
-          Add your Power BI or Excel dashboard, key metrics and
-          actionable findings here.
-        </p>
-      </div>
+      <p style="margin-top: 12px;"><strong>Key Work:</strong></p>
+      <ul>
+        <li>Cleaned and analyzed sales datasets.</li>
+        <li>Explored sales performance using SQL queries.</li>
+        <li>Reviewed monthly, category and regional trends.</li>
+        <li>Created visualizations to communicate findings.</li>
+      </ul>
+
+      <p style="margin-top: 18px;">
+        <a href="https://github.com/DudapakaGoutham/DudapakaGoutham.github.io"
+           target="_blank" rel="noopener noreferrer">
+          View Project Files on GitHub
+        </a>
+      </p>
     </div>
   </section>
 
   <section id="education">
-    <h2>Education</h2>
+    <h2>My <span>Education</span></h2>
 
     <div class="card">
-      <h3>B.Tech — Computer Science, AI & ML</h3>
+      <h3>Bachelor's Degree</h3>
       <p>Vaagdevi Engineering College</p>
+      <p>Computer Science and Engineering — AI &amp; ML</p>
       <p>CGPA: 7.5/10</p>
     </div>
 
@@ -290,41 +270,44 @@
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Let's Connect</h2>
+  <section id="contact">
+    <h2>Let's <span>Connect</span></h2>
+    <div class="content">
+      <p>
+        I'm interested in entry-level opportunities, internships
+        and projects in Data Analytics and AI/ML.
+      </p>
 
-    <p class="content">
-      I'm interested in entry-level opportunities, internships and
-      projects in Data Analytics and AI/ML.
-    </p>
+      <div class="contact" style="margin-top: 18px;">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:gouthamdudapaka@gmail.com">
+            gouthamdudapaka@gmail.com
+          </a>
+        </p>
 
-    <p style="margin-top: 15px;">
-      Email: <strong>Replace with your email address</strong>
-    </p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/goutham-dudapaka-00b842417/"
+             target="_blank" rel="noopener noreferrer">
+            View my LinkedIn Profile
+          </a>
+        </p>
 
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-        Add your LinkedIn profile URL
-      </a>
-    </p>
-
-    <p>
-      GitHub:
-      <a href="https://github.com/DudapakaGoutham" target="_blank" rel="noopener noreferrer">
-        github.com/DudapakaGoutham
-      </a>
-    </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/DudapakaGoutham"
+             target="_blank" rel="noopener noreferrer">
+            github.com/DudapakaGoutham
+          </a>
+        </p>
+      </div>
+    </div>
   </section>
 
   <footer>
-    © 2026 Goutham Dudapaka · Built with HTML & CSS
+    <p>&copy; 2026 Goutham Dudapaka | Built with HTML &amp; CSS</p>
   </footer>
 
 </body>
 </html>
-
-      </a>
-    </p>
-  </div>
-</section>
