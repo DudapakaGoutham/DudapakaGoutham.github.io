@@ -1,0 +1,36 @@
+order_date,region,category,product,quantity,unit_price_inr,unit_cost_inr,sales_channel
+2026-01-03,North,Electronics,Laptop,2,65000,52000,Online
+2026-01-05,South,Furniture,Office Chair,5,4500,3100,Retail
+2026-01-08,East,Office Supplies,Notebook,30,80,35,Online
+2026-01-12,West,Electronics,Headphones,8,1800,950,Online
+2026-01-15,North,Furniture,Desk,3,12000,8200,Retail
+2026-01-18,South,Electronics,Smartphone,4,28000,21500,Online
+2026-01-21,East,Office Supplies,Pen Set,20,250,120,Retail
+2026-01-25,West,Furniture,Bookshelf,2,7500,4800,Online
+2026-02-02,North,Electronics,Monitor,6,14000,9800,Retail
+2026-02-04,South,Office Supplies,Printer Paper,25,320,210,Online
+2026-02-09,East,Furniture,Office Chair,4,4500,3100,Online
+2026-02-13,West,Electronics,Laptop,1,65000,52000,Retail
+2026-02-17,North,Office Supplies,Notebook,45,80,35,Retail
+2026-02-22,South,Furniture,Desk,2,12000,8200,Online
+2026-02-26,East,Electronics,Headphones,10,1800,950,Online
+2026-03-01,West,Office Supplies,Pen Set,35,250,120,Online
+2026-03-05,North,Electronics,Smartphone,3,28000,21500,Retail
+2026-03-09,South,Furniture,Bookshelf,3,7500,4800,Online
+2026-03-14,East,Office Supplies,Printer Paper,40,320,210,Retail
+2026-03-20,West,Electronics,Monitor,5,14000,9800,Online
+2026-04-02,North,Furniture,Desk,4,12000,8200,Online
+2026-04-07,South,Electronics,Laptop,2,65000,52000,Retail
+2026-04-11,East,Office Supplies,Notebook,50,80,35,Online
+2026-04-18,West,Furniture,Office Chair,6,4500,3100,Retail
+2026-04-23,North,Electronics,Headphones,12,1800,950,Online
+2026-05-03,South,Furniture,Bookshelf,4,7500,4800,Retail
+2026-05-08,East,Electronics,Smartphone,5,28000,21500,Online
+2026-05-13,West,Office Supplies,Pen Set,28,250,120,Retail
+2026-05-19,North,Electronics,Monitor,4,14000,9800,Online
+2026-05-27,South,Office Supplies,Printer Paper,55,320,210,Online
+2026-06-02,East,Furniture,Desk,3,12000,8200,Retail
+2026-06-08,West,Electronics,Laptop,2,65000,52000,Online
+2026-06-15,North,Office Supplies,Notebook,60,80,35,Retail
+2026-06-21,South,Electronics,Headphones,15,1800,950,Online
+2026-06-26,East,Furniture,Office Chair,7,4500,3100,Online

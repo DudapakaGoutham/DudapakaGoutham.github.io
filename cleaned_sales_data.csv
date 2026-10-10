@@ -1,0 +1,36 @@
+order_date,region,category,product,quantity,unit_price_inr,unit_cost_inr,sales_channel,revenue_inr,cost_inr,profit_inr,month
+2026-01-03,North,Electronics,Laptop,2,65000,52000,Online,130000,104000,26000,2026-01
+2026-01-05,South,Furniture,Office Chair,5,4500,3100,Retail,22500,15500,7000,2026-01
+2026-01-08,East,Office Supplies,Notebook,30,80,35,Online,2400,1050,1350,2026-01
+2026-01-12,West,Electronics,Headphones,8,1800,950,Online,14400,7600,6800,2026-01
+2026-01-15,North,Furniture,Desk,3,12000,8200,Retail,36000,24600,11400,2026-01
+2026-01-18,South,Electronics,Smartphone,4,28000,21500,Online,112000,86000,26000,2026-01
+2026-01-21,East,Office Supplies,Pen Set,20,250,120,Retail,5000,2400,2600,2026-01
+2026-01-25,West,Furniture,Bookshelf,2,7500,4800,Online,15000,9600,5400,2026-01
+2026-02-02,North,Electronics,Monitor,6,14000,9800,Retail,84000,58800,25200,2026-02
+2026-02-04,South,Office Supplies,Printer Paper,25,320,210,Online,8000,5250,2750,2026-02
+2026-02-09,East,Furniture,Office Chair,4,4500,3100,Online,18000,12400,5600,2026-02
+2026-02-13,West,Electronics,Laptop,1,65000,52000,Retail,65000,52000,13000,2026-02
+2026-02-17,North,Office Supplies,Notebook,45,80,35,Retail,3600,1575,2025,2026-02
+2026-02-22,South,Furniture,Desk,2,12000,8200,Online,24000,16400,7600,2026-02
+2026-02-26,East,Electronics,Headphones,10,1800,950,Online,18000,9500,8500,2026-02
+2026-03-01,West,Office Supplies,Pen Set,35,250,120,Online,8750,4200,4550,2026-03
+2026-03-05,North,Electronics,Smartphone,3,28000,21500,Retail,84000,64500,19500,2026-03
+2026-03-09,South,Furniture,Bookshelf,3,7500,4800,Online,22500,14400,8100,2026-03
+2026-03-14,East,Office Supplies,Printer Paper,40,320,210,Retail,12800,8400,4400,2026-03
+2026-03-20,West,Electronics,Monitor,5,14000,9800,Online,70000,49000,21000,2026-03
+2026-04-02,North,Furniture,Desk,4,12000,8200,Online,48000,32800,15200,2026-04
+2026-04-07,South,Electronics,Laptop,2,65000,52000,Retail,130000,104000,26000,2026-04
+2026-04-11,East,Office Supplies,Notebook,50,80,35,Online,4000,1750,2250,2026-04
+2026-04-18,West,Furniture,Office Chair,6,4500,3100,Retail,27000,18600,8400,2026-04
+2026-04-23,North,Electronics,Headphones,12,1800,950,Online,21600,11400,10200,2026-04
+2026-05-03,South,Furniture,Bookshelf,4,7500,4800,Retail,30000,19200,10800,2026-05
+2026-05-08,East,Electronics,Smartphone,5,28000,21500,Online,140000,107500,32500,2026-05
+2026-05-13,West,Office Supplies,Pen Set,28,250,120,Retail,7000,3360,3640,2026-05
+2026-05-19,North,Electronics,Monitor,4,14000,9800,Online,56000,39200,16800,2026-05
+2026-05-27,South,Office Supplies,Printer Paper,55,320,210,Online,17600,11550,6050,2026-05
+2026-06-02,East,Furniture,Desk,3,12000,8200,Retail,36000,24600,11400,2026-06
+2026-06-08,West,Electronics,Laptop,2,65000,52000,Online,130000,104000,26000,2026-06
+2026-06-15,North,Office Supplies,Notebook,60,80,35,Retail,4800,2100,2700,2026-06
+2026-06-21,South,Electronics,Headphones,15,1800,950,Online,27000,14250,12750,2026-06
+2026-06-26,East,Furniture,Office Chair,7,4500,3100,Online,31500,21700,9800,2026-06
